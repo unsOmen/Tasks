@@ -46,6 +46,15 @@ public class Order {
         return id;
     }
 
+    public void print() {
+        System.out.println(String.format(
+                "id: %d\n"
+                        + "sender: %s\n"
+                        + "rec: %s\n"
+                        + "mail: weight = %f, content = %s", this.getId(), this.getSender(), this.getRecipient(), this.getMail().getWeight(), this.getMail().getContent()
+        ));
+    }
+
     public void setStatusOrder(StatusOrder statusOrder) {
         this.statusOrder = statusOrder;
     }

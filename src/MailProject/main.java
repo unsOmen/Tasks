@@ -11,12 +11,7 @@ public class main {
 
     private static void printOreder() {
         for(Order o : orders) {
-            System.out.println(String.format(
-                    "id: %d\n"
-                    + "sender: %s\n"
-                    + "rec: %s\n"
-                    + "mail: weight = %f, content = %s", o.getId(), o.getSender(), o.getRecipient(), o.getMail().getWeight(), o.getMail().getContent()
-            ));
+            o.print();
         }
     }
 
