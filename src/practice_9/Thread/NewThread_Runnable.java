@@ -29,10 +29,10 @@ class NewThread implements Runnable {
         System.out.println("Дочерний поток завершен");
     }
 }
-public class NewThreadRunnable {
+public class NewThread_Runnable {
 
     public static void main(String[] args) {
-        new NewThread();
+        new NewThread2();
 
         try {
             for(int i=5; i>0; i--) {
