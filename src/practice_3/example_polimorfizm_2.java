@@ -7,8 +7,8 @@ import java.util.Random;
  */
 
 class Shape {
-    public void draw() {};
-    public void erase() {};
+    public void draw() {}
+    public void erase() {}
 }
 
 class Circle extends Shape {

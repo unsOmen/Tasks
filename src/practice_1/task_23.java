@@ -15,6 +15,7 @@ public class task_23 {
             return;
         }
         int[] massiv = new int[count+1];
+        int[] tt = {1,2,3,4,5,6,7,9,10};
         massiv[0] = 0;
         massiv[1] = 1;
         for(int x=2; x<=count; x++) {
