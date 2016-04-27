@@ -63,6 +63,8 @@ public class example_polimorfizm_2 {
     public static void main(String[] args) {
         Shape[] s = new Shape[9];
 
+
+
         for(int i=0; i<s.length; i++) {
             s[i] = rndShape.next();
         }
